@@ -1,9 +1,9 @@
-$( "document" ).ready(function() { //this helps your jQuery to work. Write all of your JS code in this function.
+$( "document" ).ready(function() {
 
+    $("#button").click(function(){
+let userinput= $(".input").val();
+       console.log(userinput)
+       let words = [0]
+    })
 
-
-  
-  
-  
-  
-});
+})
